@@ -7,7 +7,7 @@ if (!thewindow.__pureCSSCouponHider) {
   const style = thedoc.createElement('style');
   style.textContent = `
 
-    li:has(*[class*="chat-coupon"]) {
+    li:has(*[class*="XSS"]) {
       display: none !important;
       visibility: hidden !important;
       opacity: 0 !important;
