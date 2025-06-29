@@ -1,6 +1,7 @@
 let thewindow = window.parent
-let thedocument = window.document
-
+let thedocument = thewindow.document
+let theconsole = thewindow.console
+theconsole.log("hi")
 if (!thewindow.__chatCouponCleanerLoaded) {
     
     thewindow.__chatCouponCleanerLoaded = true;
