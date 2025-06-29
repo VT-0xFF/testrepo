@@ -1,6 +1,7 @@
 window = window.parent
 document = window.document
 if (!thewindow.__chatCouponCleanerLoaded) {
+    
     thewindow.__chatCouponCleanerLoaded = true;
 
     function removeCouponLis(container) {
