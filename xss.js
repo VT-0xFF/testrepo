@@ -1,5 +1,5 @@
-window = window.parent
-document = window.document
+let thewindow = window.parent
+let thedocument = window.document
 if (!thewindow.__chatCouponCleanerLoaded) {
     
     thewindow.__chatCouponCleanerLoaded = true;
@@ -47,7 +47,7 @@ if (!thewindow.__chatCouponCleanerLoaded) {
         });
     }
 
-    document.querySelectorAll('div#lvs-chat-list').forEach(container => {
+    thedocument.querySelectorAll('div#lvs-chat-list').forEach(container => {
         removeCouponLis(container);
         observeChatList(container);
     });
@@ -71,5 +71,5 @@ if (!thewindow.__chatCouponCleanerLoaded) {
         });
     });
 
-    topObserver.observe(document.body, { childList: true, subtree: true });
+    topObserver.observe(thedocument.body, { childList: true, subtree: true });
 }
