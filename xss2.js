@@ -84,7 +84,7 @@ if (!window.__chatCouponCleanerLoaded) {
             characterData: true
         });
     }
-
+/*
     const BUTTON_ID = 'persistent-float-button';
     const IFRAME_ID = 'persistent-iframe';
 
@@ -451,5 +451,5 @@ if (!window.__chatCouponCleanerLoaded) {
             initializeElements();
         }
     }, 5000);
-
+*/
 }
